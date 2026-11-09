@@ -33,9 +33,9 @@ app.get("/create", (req, res) => {
 app.post("/create", (req, res) => {
     const { title, content } = req.body;
 
-    if (!title?.trim() || !content?.trim()) {
-        return res.status(400).send("Please fill in all fields.");
-    }
+   if (!title || !title.trim() || !content || !content.trim()) {
+    return res.status(400).send("Please fill in all fields.");
+}
 
     const newPost = {
         id: nextId++,
@@ -72,9 +72,9 @@ app.post("/edit/:id", (req, res) => {
 
     const { title, content } = req.body;
 
-    if (!title?.trim() || !content?.trim()) {
-        return res.status(400).send("Please fill in all fields.");
-    }
+    if (!title || !title.trim() || !content || !content.trim()) {
+    return res.status(400).send("Please fill in all fields.");
+}
 
     post.title = title.trim();
     post.content = content.trim();
