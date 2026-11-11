@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Post | WriteHub</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <h1 class="logo">Write<span>Hub</span></h1>
+        <a href="/" class="nav-btn">Home</a>
+    </nav>
+
+    <main class="container">
+
+        <section class="section-heading">
+            <p class="small-heading">SHARE YOUR IDEAS</p>
+            <h2>Create a New Post</h2>
+            <p>Give your thoughts a place to be heard.</p>
+        </section>
+
+        <form action="/create" method="POST" class="post-form">
+
+            <label for="title">Post Title</label>
+
+            <input
+                type="text"
+                id="title"
+                name="title"
+                placeholder="Give your thoughts a title..."
+                required
+            >
+
+            <label for="content">Your Thoughts</label>
+
+            <textarea
+                id="content"
+                name="content"
+                rows="10"
+                placeholder="Start writing your thoughts here..."
+                required
+            ></textarea>
+
+            <button type="submit" class="main-btn">
+                Publish Post
+            </button>
+
+        </form>
+
+    </main>
+
+</body>
+</html>
