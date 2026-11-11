@@ -83,4 +83,4 @@ http://localhost:3000
 ## Screenshot
 
 ![WriteHub Homepage](screenshots/writehub-home.png)
-Follow the link link of screenshots/writehub-home.png and you will be able to see the writeHub Homepage.
+Follow the link link of screenshots/writehub-home.png and you will be able to see the writehub homepage.
