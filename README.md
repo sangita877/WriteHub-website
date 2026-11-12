@@ -26,7 +26,7 @@ The application uses temporary storage, so posts are not permanently saved after
 ## Project Structure
 
 ```text
-my-blog/
+WriteHub-Website/
 │
 ├── app.js
 ├── package.json
@@ -48,7 +48,7 @@ my-blog/
 
 ## How to Run the Application
 
-## Step 1: Clone the Repository
+### Step 1: Clone the Repository
 
 ```bash
 git clone https://github.com/sangita877/WriteHub-website
@@ -60,21 +60,21 @@ git clone https://github.com/sangita877/WriteHub-website
 cd WriteHub-website
 ```
 
-## Step 3: Install Dependencies
+### Step 3: Install Dependencies
 
 ```bash
 npm install
 ```
 
-## Step 4: Start the Application
+### Step 4: Start the Application
 
 ```bash
 npm start
 ```
 
-## Step 5: Open the Website
+### Step 5: Open the Website
 
-open your browet and visit:
+open your browser and visit:
 
 ```text
 http://localhost:3000
@@ -83,4 +83,3 @@ http://localhost:3000
 ## Screenshot
 
 ![WriteHub Homepage](screenshots/writehub-home.png)
-Follow the link link of screenshots/writehub-home.png and you will be able to see the writehub homepage.
